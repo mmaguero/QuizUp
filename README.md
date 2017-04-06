@@ -22,4 +22,4 @@ Son 30 preguntas de tres tipos:
 + Único acceso a la base de datos (al crearse actividad principal).
 
 ## Instalación
-Se puede instalar usando el archivo app-release.apk, aunque se debe habilitar la instalación de aplicaciones de orígenes desconocidos en el smartphone objetivo, generalmente al copiar al teléfono o descargarlo y quererlo ejecutar, pregunta si deseamos habilitarlo.
+Se puede instalar usando el archivo [app-release.apk](https://github.com/mmaguero/MII-DSS16-17/blob/master/P5/app-release.apk?raw=true), aunque se debe habilitar la instalación de aplicaciones de orígenes desconocidos en el smartphone objetivo, generalmente al copiar al teléfono o descargarlo y quererlo ejecutar, pregunta si deseamos habilitarlo.
