@@ -1,5 +1,5 @@
-# QuizUp
-
+# QuizUp 
+:octocat: 
 ## Temática
 Se trata de un juego Quiz, denominado QuizUp con preguntas sobre películas animadas con un público orientativo hacia los niños pero no excluyente, para smartphones Android desde 4.4 Kitkat (API level 20).
 
