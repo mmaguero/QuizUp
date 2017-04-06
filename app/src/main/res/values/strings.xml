@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Version">Version 1.0 (c) QuizApp</string>
+    <string name="app_name">QuizApp</string>
+    <string name="menu_inicial">Menú Inicial</string>
+    <string name="jugar">Empezar</string>
+    <string name="resultados">Estadísticas</string>
+    <string name="volver">Volver</string>
+    <string name="otros_juegos">Más Quiz</string>
+    <string name="ir_quiz">Ir a Quiz</string>
+    <string name="ir_juegos">Ir a Juegos</string>
+    <string name="bienvenida">\tHola, \n\tPondremos a prueba tus conocimientos sobre películas animadas...</string>
+    <string name="invitacion">\tHola de vuelta, \n\t¿Qué te parece realizar otros Quiz? \n\nMíralo, a ver que tal te va...</string>
+    <string name="resultado">\t¿Y si vamos por otra ronda? \n\nMira! en tu última ronda lograste la puntuación de </string>
+</resources>

@@ -1,0 +1,115 @@
+CREATE TABLE `preguntas` (
+    _id INTEGER AUTO INCREMENT PRIMARY KEY,
+    `pregunta` VARCHAR(256),
+    `rtaCorrecta` VARCHAR(32) NOT NULL,
+    `rtaIncorrecta1` VARCHAR(32) NOT NULL,
+    `rtaIncorrecta2` VARCHAR(32) NOT NULL,
+    `rtaIncorrecta3` VARCHAR(32) NOT NULL,
+    `dificultad` CHARACTER NOT NULL DEFAULT 'F',
+    `categoria` CHARACTER NOT NULL DEFAULT 'I',
+    `imagen` VARCHAR(32) DEFAULT "NULL",
+    `sonido` VARCHAR(32) DEFAULT "NULL",
+    `tipo` INTEGER NOT NULL
+ );
+
+-- tipo
+-- 1: pregunta texto, respuesta texto
+-- 2: pregunta imagen, respuesta texto
+-- 3: pregunta texto, respuesta imagen
+-- 4: pregunta sonido, respuesta texto
+
+INSERT INTO `preguntas` (`pregunta`, `rtaCorrecta`, `rtaIncorrecta1`, `rtaIncorrecta2`, `rtaIncorrecta3`, `tipo`)
+VALUES("¿Quién fue el primer compañero de aventuras de Shrek?", "Burro", "Pinocho", "Jengi", "Lord Farquaad", 1);
+
+INSERT INTO `preguntas` (`pregunta`, `rtaCorrecta`, `rtaIncorrecta1`, `rtaIncorrecta2`, `rtaIncorrecta3`, `tipo`)
+VALUES("¿A dónde fueron Carl y Russell De Up?", "Cataratas del Paraíso", "Cataratas del Iguazú", "Cataratas del Niágara", "Salto Ángel", 1);
+
+INSERT INTO `preguntas` (`pregunta`, `rtaCorrecta`, `rtaIncorrecta1`, `rtaIncorrecta2`, `rtaIncorrecta3`, `tipo`)
+VALUES("¿Quién es el Guerrero Dragón en Kung Fu Panda?", "Ninguno", "Tigresa", "Mono", "Mantis", 1);
+
+INSERT INTO `preguntas` (`pregunta`, `rtaCorrecta`, `rtaIncorrecta1`, `rtaIncorrecta2`, `rtaIncorrecta3`, `tipo`)
+VALUES("¿Quién es el abuelo de Kiara?", "Mufasa", "Simba", "Scar", "Kovu", 1);
+
+INSERT INTO `preguntas` (`pregunta`, `rtaCorrecta`, `rtaIncorrecta1`, `rtaIncorrecta2`, `rtaIncorrecta3`, `tipo`)
+VALUES("¿Cómo se llama el mejor amigo de Sulley en Monster, Inc.?", "Mike Wazowski", "Boo", "Randall", "Roz", 1);
+
+INSERT INTO `preguntas` (`pregunta`, `rtaCorrecta`, `rtaIncorrecta1`, `rtaIncorrecta2`, `rtaIncorrecta3`, `tipo`)
+VALUES("¿Quién lava su carita con agua y jabón?", "Pin Pón", "Jengi", "Lord Farquaad", "Pinocho", 1);
+
+INSERT INTO `preguntas` (`pregunta`, `rtaCorrecta`, `rtaIncorrecta1`, `rtaIncorrecta2`, `rtaIncorrecta3`, `tipo`)
+VALUES("Soy un cerdo decente, ¡NO UN PUERCO!", "Pumba", "Hamm", "Porky", "Piglet", 1);
+
+INSERT INTO `preguntas` (`pregunta`, `rtaCorrecta`, `rtaIncorrecta1`, `rtaIncorrecta2`, `rtaIncorrecta3`, `tipo`)
+VALUES("Oye, no estoy gordo, estoy pachoncito...", "Manny", "Pumba", "Baloo", "Sulley", 1);
+
+INSERT INTO `preguntas` (`pregunta`, `rtaCorrecta`, `rtaIncorrecta1`, `rtaIncorrecta2`, `rtaIncorrecta3`, `tipo`)
+VALUES("¡Cómo odio a ese pollo!", "Gru", "Stuart", "Shrek", "Manny", 1);
+
+--
+
+INSERT INTO `preguntas` (`pregunta`, `rtaCorrecta`, `rtaIncorrecta1`, `rtaIncorrecta2`, `rtaIncorrecta3`, `imagen`, `tipo`)
+VALUES("¿Qué película es?", "El Rey León", "Madagascar", "La Era del Hielo", "Hakuna Matata", "elreyleon", 2);
+
+INSERT INTO `preguntas` (`pregunta`, `rtaCorrecta`, `rtaIncorrecta1`, `rtaIncorrecta2`, `rtaIncorrecta3`, `imagen`, `tipo`)
+VALUES("¿Qué película es?", "Madagascar", "El Rey León", "La Era del Hielo", "Zootopia", "madagascar", 2);
+
+INSERT INTO `preguntas` (`pregunta`, `rtaCorrecta`, `rtaIncorrecta1`, `rtaIncorrecta2`, `rtaIncorrecta3`, `imagen`, `tipo`)
+VALUES("¿Qué película es?", "Monsters, Inc.", "Shrek", "El Libro de la Selva", "Zootopia", "monstersinc", 2);
+
+INSERT INTO `preguntas` (`pregunta`, `rtaCorrecta`, `rtaIncorrecta1`, `rtaIncorrecta2`, `rtaIncorrecta3`, `imagen`, `tipo`)
+VALUES("¿Qué película es?", "Ratatouille", "Intensa-mente", "Frozen", "Río", "ratatouille", 2);
+
+INSERT INTO `preguntas` (`pregunta`, `rtaCorrecta`, `rtaIncorrecta1`, `rtaIncorrecta2`, `rtaIncorrecta3`, `imagen`, `tipo`)
+VALUES("¿Qué película es?", "Wall-E", "El Planeta del Tesoro", "Frozen", "Como entrenar a tu dragón", "wall_e", 2);
+
+INSERT INTO `preguntas` (`pregunta`, `rtaCorrecta`, `rtaIncorrecta1`, `rtaIncorrecta2`, `rtaIncorrecta3`, `imagen`, `tipo`)
+VALUES("¿Qué película es?", "Shrek", "Los Increíbles", "Monsters, Inc.", "Intensa-mente", "shrek", 2);
+
+INSERT INTO `preguntas` (`pregunta`, `rtaCorrecta`, `rtaIncorrecta1`, `rtaIncorrecta2`, `rtaIncorrecta3`, `imagen`, `tipo`)
+VALUES("¿Qué película es?", "Minions", "Be Movie", "Los Simpsons", "Mi Villano Favorito", "minions", 2);
+
+INSERT INTO `preguntas` (`pregunta`, `rtaCorrecta`, `rtaIncorrecta1`, `rtaIncorrecta2`, `rtaIncorrecta3`, `imagen`, `tipo`)
+VALUES("¿Qué película es?", "La Era del Hielo", "El Rey León", "Zootopia", "El Libro de la Selva", "laeradelhielo", 2);
+
+INSERT INTO `preguntas` (`pregunta`, `rtaCorrecta`, `rtaIncorrecta1`, `rtaIncorrecta2`, `rtaIncorrecta3`, `imagen`, `tipo`)
+VALUES("¿Qué película es?", "Intensa-mente", "Megamente", "Monstruos contra Alienígenas", "Monster, Inc.", "intensamente", 2);
+
+INSERT INTO `preguntas` (`pregunta`, `rtaCorrecta`, `rtaIncorrecta1`, `rtaIncorrecta2`, `rtaIncorrecta3`, `imagen`, `tipo`)
+VALUES("¿Qué película es?", "Como Entrenar a tu Dragon", "Shrek", "Monstruos contra Alienígenas", "Monster, Inc.", "comoentrenaratudragon", 2);
+
+INSERT INTO `preguntas` (`pregunta`, `rtaCorrecta`, `rtaIncorrecta1`, `rtaIncorrecta2`, `rtaIncorrecta3`, `imagen`, `tipo`)
+VALUES("¿Qué película es?", "El Libro de la Selva", "Shrek", "Kung Fu Panda", "Monster, Inc.", "ellibrodelaselva", 2);
+
+INSERT INTO `preguntas` (`pregunta`, `rtaCorrecta`, `rtaIncorrecta1`, `rtaIncorrecta2`, `rtaIncorrecta3`, `imagen`, `tipo`)
+VALUES("¿Qué película es?", "Kung Fu Panda", "Zootopia", "La Era del Hielo", "Monster, Inc.", "kungfupanda", 2);
+
+INSERT INTO `preguntas` (`pregunta`, `rtaCorrecta`, `rtaIncorrecta1`, `rtaIncorrecta2`, `rtaIncorrecta3`, `imagen`, `tipo`)
+VALUES("¿Qué película es?", "Frozen", "Zootopia", "Wall-E", "Los Increíbles", "frozen", 2);
+
+INSERT INTO `preguntas` (`pregunta`, `rtaCorrecta`, `rtaIncorrecta1`, `rtaIncorrecta2`, `rtaIncorrecta3`, `imagen`, `tipo`)
+VALUES("¿Quién es?", "El Gato con Botas", "Simba", "Leodore Lionheart", "Diego", "shrekgatoconbotas", 2);
+
+INSERT INTO `preguntas` (`pregunta`, `rtaCorrecta`, `rtaIncorrecta1`, `rtaIncorrecta2`, `rtaIncorrecta3`, `imagen`, `tipo`)
+VALUES("¿Quién es?", "Flash", "El oso Yogi", "Sid", "Baloo", "zootopia", 2);
+
+--
+
+INSERT INTO `preguntas` (`pregunta`, `rtaCorrecta`, `rtaIncorrecta1`, `rtaIncorrecta2`, `rtaIncorrecta3`, `tipo`)
+VALUES("¿Quién es Wall-E?", "walle", "robotnasa", "robotarms", "robothead", 3);
+
+INSERT INTO `preguntas` (`pregunta`, `rtaCorrecta`, `rtaIncorrecta1`, `rtaIncorrecta2`, `rtaIncorrecta3`, `tipo`)
+VALUES("¿Cuál de estos minions es Stuart?", "stuart", "dave", "bob", "jerry", 3);
+
+INSERT INTO `preguntas` (`pregunta`, `rtaCorrecta`, `rtaIncorrecta1`, `rtaIncorrecta2`, `rtaIncorrecta3`, `tipo`)
+VALUES("¿Cuál personaje no pertenece a la película La Era del Hielo?", "poo", "manny", "ellie", "sid", 3);
+
+--
+
+INSERT INTO `preguntas` (`pregunta`, `rtaCorrecta`, `rtaIncorrecta1`, `rtaIncorrecta2`, `rtaIncorrecta3`, `sonido`, `tipo`)
+VALUES("¿Quién te parece que es?", "Homero Simpson", "Shrek", "Manny", "Sulley", "homer", 4);
+
+INSERT INTO `preguntas` (`pregunta`, `rtaCorrecta`, `rtaIncorrecta1`, `rtaIncorrecta2`, `rtaIncorrecta3`, `sonido`, `tipo`)
+VALUES("¿A qué película pertenece?", "Wall-E", "Intensa-mente", "Robots", "El Gigante de Hierro", "walle", 4);
+
+INSERT INTO `preguntas` (`pregunta`, `rtaCorrecta`, `rtaIncorrecta1`, `rtaIncorrecta2`, `rtaIncorrecta3`, `sonido`, `tipo`)
+VALUES("¿Quienes son los interpretes de esta canción?", "Minions", "Timón y Pumba", "Personajes de Cuentos de Shrek", "Juguetes de Toy Story", "banana", 4);

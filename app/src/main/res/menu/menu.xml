@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MenuActividad">
+    <item
+        android:id="@+id/menu_inicial"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Menu inicial" />
+</menu>
