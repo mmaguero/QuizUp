@@ -23,3 +23,13 @@ Son 30 preguntas de tres tipos:
 
 ## Instalación
 Se puede instalar usando el archivo [app-release.apk](https://github.com/mmaguero/MII-DSS16-17/blob/master/P5/app-release.apk?raw=true), aunque se debe habilitar la instalación de aplicaciones de orígenes desconocidos en el smartphone objetivo, generalmente al copiar al teléfono o descargarlo y quererlo ejecutar, pregunta si deseamos habilitarlo.
+
+## Pantallas
+<div float="left">
+<img src="https://github.com/mmaguero/MII-DSS16-17/blob/master/P5/screen/1.png" alt="screen 1" width="25%" style="paddind: 10px;">
+<img src="https://github.com/mmaguero/MII-DSS16-17/blob/master/P5/screen/2.png" alt="screen 2" width="25%" style="paddind: 10px;">
+<img src="https://github.com/mmaguero/MII-DSS16-17/blob/master/P5/screen/6.png" alt="screen 3" width="25%" style="paddind: 10px;">
+<img src="https://github.com/mmaguero/MII-DSS16-17/blob/master/P5/screen/7.png" alt="screen 4" width="25%" style="paddind: 10px;">
+<img src="https://github.com/mmaguero/MII-DSS16-17/blob/master/P5/screen/8.png" alt="screen 5" width="25%" style="paddind: 10px;">
+<img src="https://github.com/mmaguero/MII-DSS16-17/blob/master/P5/screen/9.png" alt="screen 5" width="25%" style="paddind: 10px;">
+</div>
